@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    
+    <link rel="stylesheet" href="themes/back.min.css" />
+
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+
+    
+
+    <title>我的標題</title>
+
+</head>
+
+<body>
+
+    <div data-role="page" id="page00">
+
+        <div data-role="header">
+
+            <h1>臺灣美食</h1>
+
+        </div><!-- /header -->
+
+        <div class="group">
+            <p>台灣是多元族群、多元文化的社會，在追求互相融合、共存共榮的過程中，表現最成功的地方在於豐富的飲食文化。</p>
+        </div>
+
+        <div class="video-wrapper">
+            <iframe width="300" height="150" src="https://www.youtube.com/embed/FYpyquAvYLM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div role="main" class="ui-content">
+            
+            <ul data-role="listview" data-inset="true">
+
+                <li><a href="#page01">
+                    <img src="imgaes/101.jpg">
+                <h2>北部美食</h2>
+                <p>Northern cuisine</p></a>
+                </li>
+
+                <li><a href="#page02">
+                    <img src="imgaes/taichung.png">
+                <h2>中部美食</h2>
+                <p>Central cuisine</p></a>
+                </li>
+            
+            
+                <li><a href="#page03">
+                    <img src="imgaes/85.jpg">
+                <h2>南部美食</h2>
+                <p>Southern cuisine </p></a>
+                </li>
+            
+            
+                <li><a href="#page04">
+                    <img src="imgaes/park.jpg">
+                <h2>東部美食</h2>
+                <p>Eastern cuisine</p></a>
+                </li>
+
+            </ul>   
+        </div><!-- /content -->
+
+        <div data-role="footer" data-position="fixed">
+
+            <h4>2020 © HanJing</h4>
+
+        </div><!-- /footer -->
+
+    </div><!-- /page -->
+
+    <div data-role="page" id="page01">
+
+        <div data-role="header">
+
+            <h1>北部美食</h1>
+
+            <!-- <a href="#page00" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a> -->
+
+        </div><!-- /header -->
+
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#page00" data-icon="bullets">首頁</a></li>
+                <li><a href="#page02" data-icon="bullets">中部美食</a></li>
+                <li><a href="#page03" data-icon="bullets">南部美食</a></li>
+                <li><a href="#page04" data-icon="bullets" data-transition="slidedown">東部美食</a></li>
+            </ul>
+        </div>
+
+        <img class="img" src="imgaes/page01.jpg" alt="">
+
+        <div data-role="collapsibleset" data-theme="a" data-content-theme="a">
+            <div data-role="collapsible">
+                <h3>淡水小吃</h3>
+                    <h4>【阿婆鐵蛋】</h4>
+                    <img class="foodimg" src="imgaes/01.jpg" alt="">    
+                    <p>位於中正路的阿婆鐵蛋，也就是在老街轉往渡船口的三角窗，
+                        此地來往的遊客絡繹不絕，斗大的阿婆鐵蛋招牌，十分搶眼 。</p>
+                    <!--  -->
+                    <h4>【淡水阿給】</h4>
+                    <img class="foodimg" src="imgaes/02.jpg" alt="">
+                    <p>名稱來自日語的油豆腐，是用四方形油豆腐，挖去中間的豆腐，
+                        填進炒過的粉絲，用魚漿封口蒸熟，食用時淋上甜辣醬最夠味。</p>
+                    <!--  -->
+                    <h4>【阿媽的酸梅湯】</h4>
+                    <img class="foodimg" src="imgaes/03.jpg" alt="">
+                    <p>阿婆鐵蛋的隔壁即是「阿媽的酸梅湯」，
+                        不僅喝起來甘美可口，更具開脾健胃、養顏美容、提神止渴的功效。</p>
+                    <!--  -->
+                    </div>
+                    
+            <div data-role="collapsible">
+                <h3>基隆廟口小吃</h3>
+                    <h4>【鼎邊銼】</h4>
+                    <img class="foodimg" src="imgaes/04.jpg" alt="">
+                    <p>鼎邊銼是將米漿沿著放四分滿水的大鼎邊塗抹,
+                        蓋上鍋蓋蒸,然後將其撕下成條狀,加上魷魚絲、香菇、筍絲、蝦仁庚和肉庚等配料。</p>
+                    <!--  -->
+                    <h4>【奶油螃蟹】</h4>
+                    <img class="foodimg" src="imgaes/05.jpg" alt="">
+                    <p>豆簽羹是基隆小吃的特產，別處沒有的，豆簽似麵條，但是較短些，主要是用米豆研成粉末製造而成，
+                        經過煮後，入口香嫩滑潤，再加上大腸、蝦仁、蚵仔等佐料，風味更佳。</p>
+                    <!--  -->
+                    <h4>【豆簽羹】</h4>
+                    <img class="foodimg" src="imgaes/06.jpg" alt="">
+                    <p>橢圓形的魚丸，以打成漿的鯊魚肉做成，中間包一點肉燥，是渡船頭最吸引人的小吃。在淡水各處都有售，
+                        但是正港的魚玉丸老店是可口魚丸店，地址就在淡水老街中正路232號。</p>
+                    <!--  -->
+                    <h4>【紀原汁豬腳大王】</h4>
+                    <img class="foodimg" src="imgaes/07.jpg" alt="">
+                    <p>以純清湯，不加任何調味料熬而成，湯濃味美，與一般滷豬腳風味截然不同，
+                        顧客在吃時可隨自己的喜好加醬油或辣椒調味。</p>
+
+            </div>
+            <div data-role="collapsible">
+                <h3>九份小吃</h3>
+                    <h4>【阿柑姨芋圓】</h4>
+                    <img class="foodimg" src="imgaes/08.jpg" alt="">
+                    <p>創辦人阿柑姨將自家種植的芋頭及地瓜製成芋圓及地瓜圓，因為地理位置的關係，很快的就受到當地九份國小的老師及學生們的歡迎，而九份觀光日益興盛後，也順理成章成為觀光客的最愛。
+                        為了因應觀光客的大量需求，阿柑姨自行栽種的芋頭及地瓜，早已不敷使用，所以特地選定來自大甲的檳榔心芋及金山的紅心地瓜，精挑細選的原料，加上阿柑姨老練的經驗及手藝，製作出口感綿密且紮實的芋圓。</p>
+                    <!--  -->
+                    <h4>【草仔粿】</h4>
+                    <img class="foodimg" src="imgaes/09.jpg" alt="">
+                    <p>賣草仔粿的小販大多採用現做現賣的方式，因此無論在新鮮度及口感上均佳。
+                        走一趟基山街，路上即有很多攤販售。草仔粿口味有數種，依其內包的餡分成紅豆、綠豆、蘿蔔絲及酸菜四種。</p>
+                    <!--  -->
+                    <h4>【阿婆魚丸(羹)】</h4>
+                    <img class="foodimg" src="imgaes/10.jpg" alt="">
+                    <p>魚丸湯、魚粳在九份也算是一項古老的特殊小吃。
+                        因為九份靠海，是故製作魚丸的原料“沙魚醬”取得容易，用新鮮的沙魚肉拌成魚漿沾上麵粉 搓揉幾下，
+                        再擠成小細條隨即下鍋煮，味道鮮美可口，令人難忘。</p>
+                    <!--  -->
+                    <h4>【九份老麵店】</h4>
+                    <img class="foodimg" src="imgaes/11.jpg" alt="">
+                    <p>這間已有二十多年歷史的老店，店裡所賣的麵可都是有好湯頭的喔，加上鮮嫩爽口的上好牛肉，
+                        所以在歷經了這麼長的一段時間還是受到大家的喜愛，另外，電影《無言的山丘》、《悲情城市》也都有在此取景。</p>
+                    <!--  -->
+
+            </div>
+            <div data-role="collapsible">
+                <h3>宜蘭小吃</h3>
+                    <h4>【員山魚丸米粉】</h4>
+                    <img class="foodimg" src="imgaes/12.jpg" alt="">
+                    <p>由宜蘭市沿著7號省道南行，經過員山附近時，路旁可見“員山魚丸”的招牌，幾家小吃攤雖規模不大，但熱氣騰騰的鍋爐旁，總圍坐著許多客人，其中不乏自外地遠道而來。
+                        員山魚丸呈米灰色，看起來雖不甚起眼，卻是真材實料，其魚漿採用雙髻鯊、旗魚等高級魚料製成，魚漿拌上精肉，再摻入芹菜、紅蔥頭與三星鄉的蔥、韭當配料，均勻攪拌。
+                        由於地近南方澳漁港，魚料十分新鮮、便宜。香味四溢的湯頭，加上粗米粉和油豆腐，吃法的確很不一樣。</p>
+                    <!--  -->
+                    <h4>【三星卜肉】</h4>
+                    <img class="foodimg" src="imgaes/13.jpg" alt="">
+                    <p>「卜肉」就是豬肉切條，沾佐料下油鍋炸，火候拿捏要準，炸起來後沾芝麻鹽 吃，入口即化，沒有一般豬肉的韌性，吃了還想再吃；
+                        此外，「味珍香」的酸辣湯及炒麵一定是現做的，
+                        內容豐富，口味極佳。</p>
+                    <!--  -->
+                    <h4>【南方澳廟口米糕】</h4>
+                    <img class="foodimg" src="imgaes/14.jpg" alt="">
+                    <p>米糕這項小吃在南方澳廟口米糕最為出名，在大街小巷皆可看到它的蹤跡，但要吃到較純正 之口味，就得到南方澳廟口米糕這一家。
+                        廟口米糕位於宜蘭南方澳地區，它已有幾十年歷史，香Ｑ的米糕加上自製旗魚鬆，吃上一口，即可感覺出它的不同。</p>
+                    <!--  -->
+            </div>
+            <div data-role="collapsible">
+                <h3>新竹城隍廟小吃</h3>
+                    <h4>【貢丸米粉】</h4>
+                    <img class="foodimg" src="imgaes/15.jpg" alt="">
+                    <p>貢丸米粉是新竹最有名的特產，它位於城隍廟內的「阿忠號」，這家店的來頭不小，許多政界名人都曾光顧過。
+                        做貢丸的原料非常講究道地，使用傳統作法，從選肉到去油去筋搥肉，在煮熟時亦注意火侯，如此才能做成口感十足，味道鮮美的貢丸。吃法的確很不一樣。</p>
+                    <!--  -->
+                    <h4>【石家魚丸】</h4>
+                    <img class="foodimg" src="imgaes/16.jpg" alt="">
+                    <p>新竹的石家魚丸遠近馳名，它的風味不遜於米粉和貢丸，屢獲獎項的肯定。已有56年歷史的石家魚丸，已傳到了第二代。製作過程，大都是純手工，在材料部分也都是精心調配和挑選的，
+                        ＱＱ的外皮，是用上等的鯊魚肉成，而中間的餡，是用荸薺、香菇、赤肉、鮮瘦肉及蔥等餡料搭配而成，再加上用豬骨熬成的湯汁。</p>
+                    <!--  -->
+                    <h4>【炒米粉】</h4>
+                    <img class="foodimg" src="imgaes/17.jpg" alt="">
+                    <p>新竹城隍廟裡的「阿城號」小吃攤，從現任葉老闆的曾祖父開始，在城隍廟裡已立足一百年了，最早從炒米粉做起，然後賣什錦湯，到祖父時加入的魷魚羹，三樣小吃做的得心應手。 
+                        還有，阿城號裡的米粉與貢丸也小有名氣，一天至少可賣出七、八十斤假日則可賣上一百斤以上。維持傳統做法的貢丸，新竹不超過五家，而阿城號就是其中的一家。</p>
+                    <!--  -->
+            </div>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+
+            <h4>2020 © HanJing</h4>
+
+        </div><!-- /footer -->
+
+    </div><!-- /page -->
+    
+    <div data-role="page" id="page02">
+
+        <div data-role="header">
+
+            <h1>中部美食</h1>
+
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#page00" data-icon="bullets">首頁</a></li>
+                    <li><a href="#page01" data-icon="bullets">北部美食</a></li>
+                    <li><a href="#page03" data-icon="bullets">南部美食</a></li>
+                    <li><a href="#page04" data-icon="bullets" data-transition="slidedown">東部美食</a></li>
+                </ul>
+            </div>
+
+        </div><!-- /header -->
+
+        <img class="img" src="imgaes/page02.jpg" alt="">
+
+        <div data-role="collapsibleset" data-theme="a" data-content-theme="a">
+            <div data-role="collapsible">
+                <h3>台中市小吃</h3>
+                
+                    <h4>【台中肉圓】</h4>
+                    <img class="foodimg" src="imgaes/2-1.jpg" alt="">
+                    <p>已有六十年歷史的「台中肉員」是台中市元老級的肉圓，最大特色是以米漿加上番薯粉做成丸皮，包住以瘦肉、蹄膀和竹筍做成的餡，再放入沙拉油和豬油混合的油鍋中炸，炸熟起鍋的肉丸再淋上特製的醬油膏和甜醬就完成了。吃起來肉鮮皮Ｑ，十分好吃。</p>
+                    <!--  -->
+                    <h4>【蜜豆冰】</h4>
+                    <img class="foodimg" src="imgaes/2-2.jpg" alt="">
+                    <p>闆早年是以賣玉蜀黍起家的，但後來有感於中部地區氣候炎熱，於是開始改賣起冷飲來。他將西瓜、香蕉、葡萄、木瓜等水果和綠豆、紅豆、大豆、杏仁、圓仔、地瓜、蜜餞(蜜餞有三種)等材料混合在一起，再加上用手剷的冰塊和特製的糖水，命名為「蜜豆冰」，推出後廣受歡迎，聞名全省。</p>
+                    <!--  -->
+                    <h4>【麻葉羹】</h4>
+                    <img class="foodimg" src="imgaes/2-3.jpg" alt="">
+                    <p>麻葉羹是台中地區最具特色的地方小吃，其他地方很難得見。麻葉羹的吃法可追溯到明末清初，其做法是將麻葉葉脈抽出，用水邊衝邊以手用力搓揉，將苦水揉出，最後和魚、蕃薯一同熬煮。武德宮旁有多處攤販賣麻葉羹，也有混合薏仁一同煮的麻薏，其中楊益權賣麻葉羹已近30年，是最老牌的攤位。</p>
+                    <!--  -->
+            </div>
+
+            <div data-role="collapsible">
+                <h3>台中縣小吃</h3>
+                    <h4>【清水筒仔米糕】</h4>
+                    <img class="foodimg" src="imgaes/2-4.jpg" alt="">
+                    <p>來到清水，如果沒吃上一份道地的米糕配肉羹湯，就不算完成清水之旅。米糕是將糯米、五花肉、蝦米、韋酥等裝入小鋁筒蒸成Q而不膩、香氣四溢。
+                        清水鎮上眾多的筒仔米糕店號裏，要屬王塔米糕與阿財米糕最有名。位在臺汽客運站旁的王塔米糕已有40年曆史，是清水鎮上最著名的米糕老店，飽滿的米粒拌著五花肉、蚵仔、蝦米、蔥酥，淋上特殊醬料，濃濃的香味令人難忘；而30餘年曆史的阿財米糕，則憑藉著料好、實在、口味佳，成為當地人的最愛。</p>
+                    <!--  -->
+                    <h4>【沙鹿肉圓】</h4>
+                    <img class="foodimg" src="imgaes/2-5.jpg" alt="">
+                    <p>「阿婆肉圓」的餡料全是手工製作，希望給客人一個口為不一樣的感覺，裡面包的餡肉全是瘦肉為主，口味全是老闆曾阿婆自己研發出來的；至於醬料也全都自製，有甜和辣兩種口味。</p>
+                    <!--  -->
+                    <h4>【仙公樓擔仔麵】</h4>
+                    <img class="foodimg" src="imgaes/2-6.jpg" alt="">
+                    <p>因為靠近仙公廟，因此得名。已有30年歷史，現已傳至第三代，招牌餐飲有擔仔麵、雞捲等，全都是手工製作。擔仔麵麵條香Q滑潤、湯頭雖有加肉燥，但卻不油膩，肉燥以豬肉後腿肉為主；雞捲的材料有筍子、絞肉、魚醬、蔥花、芹菜、油蔥，油炸時用豬油處理，講究手工製作。</p>
+                    <!--  -->
+                    <h4>【大甲芋頭酥】</h4>
+                    <img class="foodimg" src="imgaes/2-7.gif" alt="">
+                    <p>大甲位於台灣中部西海岸，在大甲、大安兩溪流域的小小平原上，土質肥沃是農作生長的好地方；早期的大甲藺草造就了草蓆、草帽的輝煌歷史，而今大甲芋頭在鄉鎮特產的產業文化推動上，名聞遐邇、芋香遍全台；除了大甲農會的芋仔冰外，著名的九份芋圓、草湖芋仔冰，都指名以大甲芋頭製作。
+                        大甲特產芋頭酥創始店「先麥芋頭酥」是以天然植物油為主，強調素食，其特色為表皮外觀有紫色玫瑰般的薄薄漸層，皮酥餡多，味道佳，酥鬆甜而不膩，完全不添加防腐劑及人工色素，讓人吃後還想再吃。</p>
+                </div>
+            <div data-role="collapsible">
+                <h3>彰化縣小吃</h3>
+                    <h4>【正記彰化肉圓】</h4>
+                    <img class="foodimg" src="imgaes/2-8.jpg" alt="">
+                    <p>為彰化肉圓的創始老店，已有50多年歷史。彰化肉圓做法獨特，以在來米磨漿蒸熟後摻入蕃薯粉，加上瘦肉、筍絲、香菇、蛋黃等豐盛餡料，再進蒸籠裏炊熟，最後放入油鍋浸炸，就成了享譽全臺的著名小吃。</p>
+                    <!--  -->
+                    <h4>【貓鼠麵】</h4>
+                    <img class="foodimg" src="imgaes/2-9.gif" alt="">
+                    <p>貓鼠面其實就是切仔麵，只因創始人陳木榮的綽號叫“老鼠”，他賣的麵被稱為“老鼠麵”，以國語名之，便成了“貓鼠麵”。其肉燥高湯乃豬大骨、蛤仔、扁魚、肉燥久熬煉成，澆在麵上香味撲鼻，讓人吃了還想再吃。</p>
+                    <!--  -->
+                    <h4>【王罔麵線糊】</h4>
+                    <img class="foodimg" src="imgaes/2-10.jpg" alt="">
+                    <p>是鹿港頗為知名的小吃，這裡的麵線糊作料非常豐富，以豬肉、蝦米、雞蛋、蔥頭、麵線，加上豬骨高湯一起熬煮，濃稠可口。</p>
+                    <!--  -->
+                    <h4>【玉珍齋餅鋪】</h4>
+                    <img class="foodimg" src="imgaes/2-11.jpg" alt="">
+                    <p>玉珍齋是鹿港知名的老餅鋪，創於清光緒年間，不僅生產的糕點保存傳統風味，連店面都是優美的古厝。其招牌糕餅有綠豆糕、豬油荖、口酥餅、鳳眼糕等，味道香甜，爽口不膩。</p>
+                </div>
+            <div data-role="collapsible">
+                <h3>南投縣小吃</h3>
+                    <h4>【一品香牛肉麵】</h4>
+                    <img class="foodimg" src="imgaes/2-12.jpg" alt="">
+                    <p>高冷蔬菜、溫體豬肉是老董水餃好吃的兩大秘決，而祖傳的中藥美食處方則是牛肉麵獨特之處。</p>
+                    <!--  -->
+                    <h4>【草屯蚵仔麵線】</h4>
+                    <img class="foodimg" src="imgaes/2-13.jpg" alt="">
+                    <p>這攤只賣早上的蚵仔麵線，20多年來已在草屯建立了響亮的名聲，蚵仔新鮮，耐煮不糊的面線是這攤蚵仔麵線好吃的原因，再加上濃濃的蔥末香，更令人垂涎三尺。</p>
+                    <!--  -->
+                    <h4>【萬壽肉圓】</h4>
+                    <img class="foodimg" src="imgaes/2-14.jpg" alt="">
+                    <p>它與眾不同的地方在於瘦肉、油蔥、蝦仁、高麗菜、混合而成的內餡，上淋了自製的蒜片醬油及辣醬，風味更佳。</p>
+                    <!--  -->
+                    <h4>【胡記古早麵】</h4>
+                    <img class="foodimg" src="imgaes/2-15.gif" alt="">
+                    <p>由日據時代四處叫賣的肩挑小麵攤做起，胡記古早麵已有60年曆史，是埔裏最具代表性的老麵店，切仔麵為這裡的招牌，以大骨熬煮的湯頭，清淡不油膩，粉腸、豬肝等小菜也十分可口，是經濟實惠的用餐地點。</p>
+                </div>
+            <div data-role="collapsible">
+                <h3>雲林縣小吃</h3>
+                    <h4>【正莊麻糬】</h4>
+                    <img class="foodimg" src="imgaes/2-16.jpg" alt="">
+                    <p>正莊麻糬精選黏度高的西螺圓糯米為材料，經過洗凈、炊煮、攪拌後，再包入不同口味的餡料，所以香滑柔軟卻不黏牙。除了各種甜式麻糬外，包入筍絲、香菇、肉塊的鹹麻糬，風味獨特，很受歡迎。</p>
+                    <!--  -->
+                    <h4>【當歸鴨麵線】</h4>
+                    <img class="foodimg" src="imgaes/2-17.jpg" alt="">
+                    <p>開店50年的魏家當歸麵線，不論是做工或用料都相當講究，老湯是以鴨骨加上10多味祖傳藥方一起熬煮，麵線則是選用手工製作的，老湯清香而不油膩，麵線柔韌有勁，讓人吃了還想再吃。
+                    </p>
+                    <!--  -->
+                    <h4>【暗光擔仔麵】</h4>
+                    <img class="foodimg" src="imgaes/2-18.jpg" alt="">
+                    <p>暗光擔仔麵的肉燥呈白色，不同於台南擔仔麵的紅色肉燥，據說是因為處理時加入醬油的多少所致，而口味亦不相同。暗光擔仔麵使用肉湯及大骨汁為湯料，清香不油膩，還帶有少許的甜味，加上一流的燙麵功夫，口碑不錯。
+                    </p>
+                    <!--  -->
+                </div>
+        </div>
+
+        <div role="main" class="ui-content">
+
+        </div><!-- /content -->
+
+        <div data-role="footer">
+
+            <h4>2020 © HanJing</h4>
+
+        </div><!-- /footer -->
+
+    </div><!-- /page -->
+
+    <div data-role="page" id="page03">
+
+        <div data-role="header">
+
+            <h1>南部美食</h1>
+
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#page00" data-icon="bullets">首頁</a></li>
+                    <li><a href="#page01" data-icon="bullets">北部美食</a></li>
+                    <li><a href="#page02" data-icon="bullets">中部美食</a></li>
+                    <li><a href="#page04" data-icon="bullets" data-transition="slidedown">東部美食</a></li>
+                </ul>
+            </div>
+
+        </div><!-- /header -->
+
+        <img class="img" src="imgaes/page03.jpg" alt="">
+
+        <div data-role="collapsibleset" data-theme="a" data-content-theme="a">
+            <div data-role="collapsible">
+                <h3>嘉義縣小吃</h3>
+                
+                    <h4>【公婆餅】</h4>
+                    <img class="foodimg" src="imgaes/3-1.jpg" alt="">
+                    <p>店齡近50年的公婆餅，其循古法製作的公婆餅、大餅、草仔粿等，口碑甚佳。磨米、揉拌、包餡、製餅，全程手工，一天大概能作一百五十個，是造訪奮起湖必到之處。
+                        皮薄而Ｑ，內容實在，炭烤焙成，香酥可口，餡有芋頭、豆沙、滷肉等口味；此外，店裏的草仔粿也十分出名，以菜脯、絞肉、香菇、蝦仁等配料作餡製成，口味道地。</p>
+                    <!--  -->
+                    <h4>【竹筒飯】</h4>
+                    <img class="foodimg" src="imgaes/3-2.jpg" alt="">
+                    <p>遍地竹林的阿里山區，竹簡飯為其特色小吃，傳統的做法是先將糯米洗淨，再和拌炒之香菇和肉絲一起置入竹筒中，約五分之四滿，放在火上燒烤。
+                        烤竹筒飯的火不能太大，時間約四、五十分鐘。一直到竹筒外殼焦黑，飯香溢出，即可聞到竹筒的清香混合著飯香撲鼻而來，香Q可口。</p>
+                    <!--  -->
+                    <h4>【民雄鵝肉】</h4>
+                    <img class="foodimg" src="imgaes/3-3.jpg" alt="">
+                    <p>民雄火車站前的和平路、民族路上，沿街可見許多鵝肉店，這裡的鵝肉多為當地所飼養，以鮮嫩紮實的口感聞名，成為食客不容錯過的當地美食。
+                        “民雄鵝肉太郎本店”為民雄鵝肉的創始店，他們捨棄傳統的水煮法，改用蒸炊的方式烹煮，不僅保留了肉的香汁，並以控制火候，使鵝肉熟透卻不老，同時也利用蒸鵝滴出的油汁作成鵝肉麵湯底，增加湯麵的香醇。</p>
+                    <!--  -->
+                    <h4>【新港飴】</h4>
+                    <img class="foodimg" src="imgaes/3-4.jpg" alt="">
+                    <p>新港飴係由花生糖、麥芽糖混合製成的甜食，另依口味加入花生、桂圓、梨子、葡萄等製成，風味特殊，為光緒年間民雄人盧欺頭所創始。盧欺頭挂起“金長利”商號，並改名為新港飴，成為新港最具代表的特產。
+                        新港飴打出知名度後，陸續有多家商店跟進，尤以奉天宮正門前的大街最為密集，但仍以位於奉天宮左側的“金長利”老店最負盛名。</p>
+            </div>
+
+            <div data-role="collapsible">
+                <h3>台南市小吃</h3>
+                    <h4>【度小月擔仔麵】</h4>
+                    <img class="foodimg" src="imgaes/3-5.jpg" alt="">
+                    <p>創始人洪芋頭原以捕魚為業，夏秋多風之際，便在水仙宮擺攤賣麵，度過清淡的“小月”，由於反應甚佳，副業變正業，也開創度小月百年的傳奇。
+                        肉燥是選用肥瘦適中的豬後腿肉，和蔥一同爆炒後，再慢燉而成。麵上放肉燥、加入蝦頭湯，最後再灑上黑醋、蒜末、香菜、豆芽菜，府城知名的擔仔麵，肉燥香、湯頭鮮甜中帶著微酸，果然名不虛傳。至今傳承四代，而門市中仍維持一貫的矮爐、小竹凳、紅燈籠，及一隻燒得發黑的肉燥陶甕，更添古都風情。</p>
+                    <!--  -->
+                    <h4>【再發號肉粽】</h4>
+                    <img class="foodimg" src="imgaes/3-6.jpg" alt="">
+                    <p>清同治年間開店，至今店齡已120多年、傳承四代的再發號肉粽，遠近馳名。吳家原本經營飯桌生意，後來推出重達12兩的“八寶肉粽”，而聲名大噪，從此專賣肉粽；八寶肉粽選用長糯米及乾貝、扁魚酥、蝦米、栗子、香菇、肉燥、豬肉、鹹蛋黃等8種內餡。</p>
+                    <!--  -->
+                    <h4>【陳家蚵捲】</h4>
+                    <img class="foodimg" src="imgaes/3-7.gif" alt="">
+                    <p>世居安平的陳家，除了販賣蚵捲出名外，也是傳了三代的蚵業中盤商。50幾年來，陳家一直以剝蚵賣蚵為業，安平地區的蚵仔煎所使用的蚵仔，幾乎被陳家一手包辦，後來創辦人陳秀月女士以蚵仔創造出一道美食--蚵捲，由於味道鮮美，成為台南市家喻戶曉的陳家蚵捲。</p>
+                    <!--  -->
+                    <h4>【福記肉圓】</h4>
+                    <img class="foodimg" src="imgaes/3-8.jpg" alt="">
+                    <p>福記肉圓的內餡是用整塊肉，製作方式則是用生肉浸泡醬汁再外包肉圓皮直接下去炊煮，時間也比較久，因此肉圓皮也比一般肉圓的稍軟且吃得出肉香！
+                        福記肉圓外皮的製作，是以上選的在來米浸泡後軟化磨漿，肉塊則是經過特殊的醬汁浸泡，除了使肉餡充滿香味，更增加肉的咬勁。
+                        沾醬也是由老闆為配合福記肉圓特別研發的，主要是由糖、醬油、蕃茄醬、豆腐乳等調製，而非一般普通的醬油，鮮美的肉圓加上特製的醬汁、配上免費的大骨湯，成為府城有名的肉圓之家。</p>
+                </div>
+            <div data-role="collapsible">
+                <h3>台南縣小吃</h3>
+                    <h4>【佳里肉圓】</h4>
+                    <img class="foodimg" src="imgaes/3-9.jpg" alt="">
+                    <p>佳里肉圓的金字招牌，雖然打響於民國六０年代，但「佳里肉圓」 遠在光復前三、四年，便己是佳里街仔的特色小吃。當時尚未冠上「佳里」二字，也不叫「肉圓」，而呼之為「包仔」。發明這種「包仔」的陳金福，佳里街仔人均喊他「包仔福」。
+                        已傳承三代的“福記”，是泡湯肉圓的創始店。原以賣粉粿、粉圓為業的店主陳金福，將粉類製品加餡油炸，改良為“包仔”（肉圓），推出後一炮而紅。至今，福記仍遵循古法秘方製作。</p>
+                    <!--  -->
+                    <h4>【東山鴨頭】</h4>
+                    <img class="foodimg" src="imgaes/3-10.jpg" alt="">
+                    <p>「東山鴨頭」聞名全臺，外皮酥脆、肉質柔韌有味，是顧客對“東山鴨頭”的評語；炸完馬上趁熱吃，則是品嘗東山鴨頭特有風味的訣竅。籃記是台灣各地販售東山鴨頭的始祖。原本賣冰維生的黃瑞祥，因生計改賣滷鴨頭、鴨掌等，且以先鹵後炸的獨特作法去除鴨肉特有的腥味，不想效果奇佳，啃吮的快感自此風靡全臺。</p>
+                    <!--  -->
+                    <h4>【麻豆蚵嗲】</h4>
+                    <img class="foodimg" src="imgaes/3-11.jpg" alt="">
+                    <p>麻豆蚵嗲是將八豆磨成豆，加水、味素、鹽攪拌備用，炸製時先塗豆粉於蚵嗲煎仔上，放上拌勻的佐料及蚵仔，再塗豆粉於其上，放進油鍋中炸到色澤金黃，蚵香溢出為止，即可切塊裝盤上，沾蕃茄醬、豆油膏食用。</p>
+                    <!--  -->
+                    <h4>【碗粿】</h4>
+                    <img class="foodimg" src="imgaes/3-12.jpg" alt="">
+                    <p>從高速公路下麻豆交流道，便可見到麻豆最著名的小吃─阿蘭碗粿。創始人林金蘭女士從十四歲即追隨父親炊製碗粿，從選米、淘米、研磨、下料、炊煮都經過嚴格的品管，貨真價實有著香菇、蛋黃等內料，配上特製含有蒜味的醬油，讓位於圓環的阿蘭碗粿店內一位難求。</p>
+                </div>
+            <div data-role="collapsible">
+                <h3>高雄市小吃</h3>
+                    <h4>【菜粽】</h4>
+                    <img class="foodimg" src="imgaes/3-13.jpg" alt="">
+                    <p>是高雄市區的粽子老店，老闆從包料到粽葉，都稟持一貫作法：米粒非長糯米不用，粽葉是自嘉義梅山買來的特級桂竹葉，而花生更是從各地花生園特選的上品，鬆軟得恰到好處。</p>
+                    <!--  -->
+                    <h4>【阿婆冰】</h4>
+                    <img class="foodimg" src="imgaes/3-14.jpg" alt="">
+                    <p>阿婆冰創於民國二十二年，當時的老闆蔡固常包著頭巾，臨近的學生便昵稱她為“阿婆”，於是“阿婆冰”之名不脛而走。由於蔡固對腌漬楊桃、李子十分拿手，因此四果冰便成為最受歡迎的冰點。</p>
+                    <!--  -->
+                    <h4>【海之冰】</h4>
+                    <img class="foodimg" src="imgaes/3-15.jpg" alt="">
+                    <p>海之冰冰店的冰品份量分級有一倍、三倍、五倍、七倍、十倍，而且倍數愈高，冰品的量則愈多。冰品中以『水果總匯』最受歡迎，整碗冰上佈滿了當季盛產的水果，又淋上草莓糖漿，那風味可是酸甜綜合。
+                    </p>
+                    <!--  -->
+                    <h4>【旗津海鮮】</h4>
+                    <img class="foodimg" src="imgaes/3-16.jpg" alt="">
+                    <p>臨海的旗津因地利之便，海產新鮮，消費又較市區海鮮餐廳便宜許多，吸引不少食客來此大快朵頤。旗津的海鮮店集中在廟前路、中洲三街上。各家餐廳前擺放大型水族箱，各種鮮活的蝦蟹魚貝由食客自行挑選，再交店家現炒現煮。</p>
+                </div>
+            <div data-role="collapsible">
+                <h3>屏東縣小吃</h3>
+                    <h4>【萬巒豬腳】</h4>
+                    <img class="foodimg" src="imgaes/3-17.jpg" alt="">
+                    <p>萬巒豬腳名聞全省，在萬巒地區已有五十年以上的歷史，其中以林海鴻的海鴻飯店最有名，是萬巒豬腳的創始者。
+                        萬巒豬腳其獨特秘方還在於烹煮時的中藥配料和沾豬腳的蒜茸醬油佐料，待送入嘴巴，油膩全消的豬腳嘗來開胃爽口，吸引眾多饕客不遠千里而來。其製作是選用骨頭小，瘦肉多的豬前蹄，須經過脫油，再以特殊的配方小火慢滷三小時以上始成。食用時，配上特調的蒜頭醬油，令人百嚐不厭。</p>
+                    <!--  -->
+                    <h4>【屏東肉圓】</h4>
+                    <img class="foodimg" src="imgaes/3-18.jpg" alt="">
+                    <p>屏東肉圓是屏東市獨家風味。屏東肉圓用米漿為皮，上等豬肉加香料為餡，用蒸的，因此肉圓軟香、不油膩，。當店家用手從鍋子或蒸籠抓起一粒粒熱騰騰的肉圓，這就是屏東肉圓正宗風味。
+                    </p>
+                    <!--  -->
+                    <h4>【鹽水鴨】</h4>
+                    <img class="foodimg" src="imgaes/3-19.jpg" alt="">
+                    <p>鹽水鴨是屏東的招牌名點，是上選鴨肉加上特殊的中藥配方，烹煮而成，食用時沾上店家提供的香油，風味更佳。繼侯家鹽水鴨之後，在同一路段，叉有何家鹽水鴨竄起，其所調製的鹽水鴨，口味也很好，各有特色。
+                    </p>
+                    <!--  -->
+                    <h4>【愛玉冰】</h4>
+                    <img class="foodimg" src="imgaes/3-20.jpg" alt="">
+                    <p>70年店齡的愛玉冰，今已傳至第三代，堅持採用野生愛玉搓揉而成，因此質地較平地愛玉細膩、富彈性！</p>
+                </div>
+        </div>
+
+        <div role="main" class="ui-content">
+
+        </div><!-- /content -->
+
+        <div data-role="footer" data-position="fixed">
+
+            <h4>2020 © HanJing</h4>
+
+        </div><!-- /footer -->
+
+    </div><!-- /page -->
+
+    <div data-role="page" id="page04">
+
+        <div data-role="header">
+
+            <h1>東部美食</h1>
+
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#page00" data-icon="bullets">首頁</a></li>
+                    <li><a href="#page01" data-icon="bullets">北部美食</a></li>
+                    <li><a href="#page02" data-icon="bullets">中部美食</a></li>
+                    <li><a href="#page03" data-icon="bullets" data-transition="slidedown">南部美食</a></li>
+                </ul>
+            </div>
+
+        </div><!-- /header -->
+
+        <img class="img" src="imgaes/page04.jpg" alt="">
+
+        <div data-role="collapsibleset" data-theme="a" data-content-theme="a">
+            <div data-role="collapsible">
+                <h3>宜蘭縣小吃</h3>
+                    <h4>【魏姐包心粉圓】</h4>
+                    <img class="foodimg" src="imgaes/4-9.JPG" alt="">
+                    <p>包心粉圓是宜蘭在地的特色甜點小食，是將萬丹紅豆包在粉圓裡頭，打造獨特的美味與口感。包心粉圓也會搭配花生或雪沙冰，多樣的口味與組合，讓包心粉圓的層次與享受更佳的多元，遍佈宜蘭的分店也讓你在需要一份甜蜜口感時都可以吃得到。</p>
+                    <!--  -->
+                    <h4>【正好鮮肉小籠包】</h4>
+                    <img class="foodimg" src="imgaes/4-10.jpg" alt="">
+                    <p>正好鮮肉小籠包也是許多人到宜蘭必吃的美食，湯包裡包有滿滿的三星蔥，另外的一大特色是外皮很薄，一口咬下，讓鮮甜的肉汁以及蔥香流溢於口中。除了小籠包以外，配上一碗酸辣湯，是許多人推薦的必吃組合！</p>
+                    <!--  -->
+                    <h4>【阿灶伯當歸羊肉】</h4>
+                    <img class="foodimg" src="imgaes/4-11.jpg" alt="">
+                    <p>阿灶伯當歸羊肉是羅東夜市的知名排隊美食，也是編輯每次到羅東夜市都一定會吃的店家！推薦必點的就是當歸羊肉湯，羊肉鮮嫩而不腥，湯頭有當歸的香甜，非常推薦！另外臭豆腐也是許多人推薦的餐點。阿灶伯其實出餐速度很快，會排隊主要是因為座位有限，如果比較不怕麻煩，建議可以點外帶，到附近的公園坐著吃哦！</p>
+                    <!--  -->
+                    <h4>【柯氏蔥油餅】</h4>
+                    <img class="foodimg" src="imgaes/4-12.jpg" alt="">
+                    <p>來到盛產蔥的宜蘭，蔥油餅當然是來宜蘭的必吃小吃！位在礁溪的柯氏蔥油餅，又可以說是宜蘭最為知名的一家蔥油餅店家，外皮金黃酥脆，咬起來蓬鬆Q彈有嚼勁，編輯最愛的組合是加蛋並刷上蒜味醬油，蛋香、蔥香和麵粉像一次在口中綻放，非常令人上癮！</p>
+            </div>
+
+            <div data-role="collapsible">
+                <h3>花蓮縣小吃</h3>
+                    <h4>【鳳林游翁韭菜臭豆腐】</h4>
+                    <img class="foodimg" src="imgaes/4-5.jpg" alt="">
+                    <p>炸的金黃香脆的臭豆腐，灑上了新鮮現切的生韭菜，搭配起來真是人間美味～ 也有麻辣臭豆腐鍋、大腸麵線、豬血湯…等小吃可以選擇。</p>
+                    <!--  -->
+                    <h4>【豐春冰菓店】</h4>
+                    <img class="foodimg" src="imgaes/4-6.jpg" alt="">
+                    <p>古法煉製、柴燒技術的甘蔗冰，全台灣我看大概就只有這家冰菓店有賣，甘蔗冰可任選柴燒紅豆、麥芽芋頭、天然鳳梨、消暑仙草、蓮子白木耳…等兩種配料喔～</p>
+                    <!--  -->
+                    <h4>【涂媽媽肉粽】</h4>
+                    <img class="foodimg" src="imgaes/4-7.jpg" alt="">
+                    <p>已經飄香有四十多年歷史的瑞穗肉粽老店，店內只有賣肉粽、四神湯和魚丸湯，不過來這裡一顆特級香粽配一碗四神湯，就是我最常點的組合啦～</p>
+                    <!--  -->
+                    <h4>【玉里麵】</h4>
+                    <img class="foodimg" src="imgaes/4-8.jpg" alt="">
+                    <p>份量多又實在的玉里麵，小薛我每次南下到玉里時都會必吃一碗還可飽餐一頓， 點一碗玉里乾麵，切幾盤小菜再配碗湯，就可以吃得很滿足了。</p>
+                </div>
+            <div data-role="collapsible">
+                <h3>台東縣小吃</h3>
+                    <h4>【里香水煎包滷味】</h4>
+                    <img class="foodimg" src="imgaes/4-1.jpg" alt="">
+                    <p>遠近馳名的『七里香水煎包滷味』就在台東市區的正氣路小巷內，其招牌水煎包跟小薛拳頭一樣大！煎到金黃酥脆的外皮一口咬下，裡頭盡是滿滿的餡料！口感相當豐富吃的很有飽足感喔～</p>
+                    <!--  -->
+                    <h4>【藍蜻蜓速食專賣店】</h4>
+                    <img class="foodimg" src="imgaes/4-2.jpg" alt="">
+                    <p>在三十年前麥當勞和肯德基還沒進駐台東時，『藍蜻蜓速食專賣店』是老台東人專屬的炸雞店，就算到現在人氣還是一樣旺！更是台東排隊名店之一，每到假日大同路上都是長長的排隊人潮，這裡有搭配漢堡的藍蜻蜓全餐和只吃炸雞的炸雞全餐，讓我們一起來品嚐老台東人懷念的好滋味吧！</p>
+                    <!--  -->
+                    <h4>【黑松羊肉爐】</h4>
+                    <img class="foodimg" src="imgaes/4-3.jpg" alt="">
+                    <p>來台東知本除了泡溫泉外，別忘了來『黑松羊肉爐』吃鍋暖呼呼的羊肉爐，再點幾盤熱炒喝酒聊天，如果一個人來，也可以點份羊肉炒麵和羊排湯，簡單來說就是一人份的羊肉全餐啦</p>
+                    <!--  -->
+                    <h4>【正氣路寶桑湯圓】</h4>
+                    <img class="foodimg" src="imgaes/4-4.jpg" alt="">
+                    <p>比起寶桑路蓮玉湯圓，正氣路上的『溫記寶桑湯圓』更位於台東市中心，傳承近七十年的古早味，可選擇冰湯圓和熱湯圓，裡面還有紅豆、綠豆、花生、脆圓…等多種配料，真是太豐富了！</p>
+                </div>
+        </div>
+        
+        <div role="main" class="ui-content">
+
+        </div><!-- /content -->
+
+        <div data-role="footer" data-position="fixed">
+
+            <h4>2020 © HanJing</h4>
+
+        </div><!-- /footer -->
+
+    </div><!-- /page -->
+
+</body>
+
+</html>

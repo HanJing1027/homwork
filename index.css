@@ -1,0 +1,98 @@
+.ui-body-c, .ui-header {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.ui-footer {
+    font-family: 'Pacifico', cursive;
+}
+
+* {
+    text-shadow: none;
+    /* color: rgb(227, 222, 236); */
+    /* 背景圖 */
+    /* background-image: url('imgaes/back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; */
+    /*  */
+}
+
+/* 背景圖 */
+body #page00 {
+    background-image: url('imgaes/back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+body #page01 {
+  background-image: url('imgaes/back.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+body #page02 {
+    background-image: url('imgaes/back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+body #page03 {
+    background-image: url('imgaes/back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+body #page04 {
+    background-image: url('imgaes/back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+  /*  */
+
+/* page00 */
+
+.group {
+    display: flex;
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 1%;
+    background-color: rgba(0, 0, 0, 0.555);
+    border-radius: 15px;
+    border-style:solid;
+}
+
+.group p {
+    font-size: 18px;
+    color: rgb(227, 222, 236);
+    margin: 3%;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    margin-bottom: -10%;
+    overflow: hidden;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 5%;
+    left: 4.5%; 
+    width: 90%;
+    height: 80%;
+}
+
+/*  */
+
+/* page01 */
+
+.img {
+    margin-top: 2.5%; 
+    margin-left: 4.5%;
+    width: 90%;
+}
+.foodimg {
+    width: 20%;
+}
+
+/*  */
